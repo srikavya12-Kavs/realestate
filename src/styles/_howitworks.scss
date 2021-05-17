@@ -22,8 +22,17 @@
         display: flex;
         justify-content: space-between;
 
+        @media (max-width: 500px) {
+            display: block;
+        }
+        
         > div {
             width: 30%;
+
+            @media (max-width: 500px) {
+                width: 100%;
+                margin-top: 2rem;
+            }
         }
 
         h4 {

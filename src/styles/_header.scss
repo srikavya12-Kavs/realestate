@@ -5,6 +5,26 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../assets/header-bg.png");
+
+    @media(max-width:1190px){
+        background-size: 1150px !important;
+    }
+
+    @media(max-width:1100px){
+        background-position-x: 60%;
+    }
+
+    @media(max-width: 860px){
+        background-position: 70% 110%;
+    }
+
+    @media(max-width: 600px){
+        background-position-x: -520px;
+    }
+
+    @media(max-width: 500px){
+        background-position-x: -550px;
+    }
 }
 
 .intro{
@@ -14,6 +34,32 @@
 	left: 16%;
 	top: 50%;
 	transform: translate(-20%,-50%);
+
+    @media(max-width:1190px){
+        left: 10%;
+        top: 50%;
+        transform: translate(-10%,-50%);
+    }
+
+    @media(max-width:1100px){
+        width: 400px;
+        left: 5%;
+        top: 50%;
+        transform: translate(-5%,-50%);
+    }
+
+    @media(max-width: 860px){
+        width: 70%;
+        left: 15%;
+        top: 20%;
+        transform: translate(-15%,-20%);
+    }
+
+    @media(max-width:600px){
+        width: 90%;
+        left: 30%;
+        transform: translate(-30%,-20%);
+    }
 
     span{
         color: #fc9700;
@@ -30,11 +76,35 @@
         margin:0px;
         letter-spacing: 3px;
         color:#236c7e;
+
+        @media(max-width:600px){
+            font-size: 35px;
+        }
+
+        @media(max-width:600px){
+            font-size: 25px;
+        }
+
+        @media(max-width: 500px){
+            font-size: 22px;
+        }
+
+        @media(max-width: 400px){
+            font-size: 19px;
+        }
     }
 
     p{
         color: #064757; font-weight: 500;
         margin-bottom: 15px;
+
+        @media(max-width: 500px){
+            font-size: 15px;
+        }
+
+        @media(max-width: 400px){
+            font-size: 14px;
+        }
     }
 
     .header-btn{
@@ -47,6 +117,12 @@
         box-shadow: 5px 10px 30px rgba(2, 82, 255, 0.137);
         border-radius: 10px;
         color:#ffffff;
+
+        @media(max-width: 500px){
+            width: 90px;
+            height: 35px;
+            font-size: 14px;
+        }
 
         &:hover{
             background-color: #04afda;
