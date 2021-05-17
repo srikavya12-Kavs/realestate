@@ -1,6 +1,7 @@
 import React from 'react'
 import About from './components/About'
 import Agents from './components/Agents'
+import Contact from './components/Contact'
 import Header from './components/Header'
 import HowItWorks from './components/HowItWorks'
 import Proparty from './components/Proparty'
@@ -14,6 +15,7 @@ const App = () => {
             <About />
             <Agents />
             <Proparty />
+            <Contact />
         </div>
     )
 }
