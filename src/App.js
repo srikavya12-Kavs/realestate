@@ -5,6 +5,7 @@ import Contact from './components/Contact'
 import Header from './components/Header'
 import HowItWorks from './components/HowItWorks'
 import Proparty from './components/Proparty'
+import Footer from './components/Footer'
 import './styles/app.scss'
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
             <Agents />
             <Proparty />
             <Contact />
+            <Footer />
         </div>
     )
 }
