@@ -14,13 +14,13 @@ const HowItWorks = () => {
 
                     <div>
                         <span className="fas fa-dollar-sign"></span>
-                        <h4>Find a Property</h4>
+                        <h4>Buy a Property</h4>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
 
                     <div>
                         <span className="fas fa-chart-line"></span>
-                        <h4>Find a Property</h4>
+                        <h4>Investing</h4>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
