@@ -1,0 +1,44 @@
+.how-it-works {
+    padding: 3rem 0;
+    background: #236c7e;
+    text-align: center;
+
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        h2 {
+            margin-bottom: 3rem;
+            font-size: 2rem;
+            font-family: 'Montserrat';
+            color: #ffffff;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+
+        > div {
+            width: 30%;
+        }
+
+        h4 {
+            color: #ffffff;
+            margin-top: 1rem;
+            margin-bottom: .7rem;
+        }
+
+        p {
+            color: rgb(255, 196, 0);
+        }
+        
+        span.fas {
+            color: #ffffff;
+            font-size: 35px;
+        }
+    }
+}
